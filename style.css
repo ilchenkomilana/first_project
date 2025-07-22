@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Unbounded:wght@200..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(myy.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.header_left {
+    width: 65%;
+    height: 100%;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 5vw;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.header_left p {
+    font-size: 0.5em;
+}
+
+.bio {
+    width: 60%;
+}
+
+
+.header_right {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+}
+
+.header_btn {
+    cursor: pointer;
+}
+
+.header_btn:hover {
+    transform: scale(1.05);
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 6vw;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
+
+section h1 {
+    font-size: 4em;
+}
+
+.section_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_item {
+    height: 10vw;
+    margin: 0 4em 4em 4em;
+}
+
+.section_item img {
+    height: 100%;
+}
+
+
+.projects {
+    color: white;
+    background: black;
+}
+
+.github:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-image: url(footer_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer_content {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    -webkit-backdrop-filter: brightness(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+header h1{
+    margin-bottom: 10px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 
+        1px 1px 0 black, 
+        -1px 1px 0 black, 
+        1px -1px 0 black, 
+        -1px -1px 0 black;
+}
+h1{
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+footer{
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.header_left {
+    width: 65%;
+    height: 100%;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 0 5vw; 
+    margin-left: -2vw;
+    box-sizing: border-box;
+    text-align: left; 
+    color: white;
+    
+}
+.about{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: black;
+    margin-top: 10px; /* Зменшити верхній відступ */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.header_btn {
+    cursor: pointer;
+    margin-left: 150px; /* Додає відступ зліва для зсуву вправо */
+}
